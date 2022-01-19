@@ -8,16 +8,18 @@ import { SafeAreaView } from 'react-native';
 import DimensionsScreen from './src/screens/DimensionsScreen';
 import PositionRelativeScreen from './src/screens/PositionRelativeScreen';
 import FlexboxScreen from './src/screens/FlexScreen'
+import TaskScreen from './src/screens/TaskScreen'
 
 export const App = () => {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#28425B' }}>
       {/* <HelloWorldScreen /> */}
       {/* <CounterScreen /> */}
       {/* <BoxObjectModuleScreen /> */}
       {/* <DimensionsScreen /> */}
       {/* <PositionRelativeScreen /> */}
-      <FlexboxScreen />
+      {/* <FlexboxScreen /> */}
+      <TaskScreen />
     </SafeAreaView>
   )
 }
